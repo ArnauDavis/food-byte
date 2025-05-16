@@ -73,5 +73,27 @@ export default [
         feature4des: 'Loaded with Vitamin C and refreshing hydration within each segment',
         feature5: 'Effortless delight',
         feature5des: 'Simply peel and enjoy a burst of natural energy'
+    },{
+        id: 4,
+        backgroundColor: 'yellow',
+        img:{
+            src: banana,
+            alt: 'banana'
+        },
+         "item": "Beautiful Banana",
+         "itemDes": "with peel",
+         "dollar": 2,
+         "cents": 75,
+         "intro": "Imagine the smooth, creamy texture as you peel back the sunshine-yellow skin of this perfectly ripened banana, revealing a sweet and satisfying bite that fuels your day with natural goodness.",
+         "feature1": "Naturally Sweet",
+         "feature1des": "A delightful and easily digestible sweetness",
+         "feature2": "Smooth Embrace",
+         "feature2des": "A soft, yielding texture that melts in your mouth",
+         "feature3": "Fruity Comfort",
+         "feature3des": "A familiar and comforting aroma of pure fruit",
+         "feature4": "Packed with Potassium",
+         "feature4des": "A convenient source of energy and essential nutrients",
+         "feature5": "Grab-and-Go Goodness",
+         "feature5des": "The ideal snack for any time, any place"
     }
 ]

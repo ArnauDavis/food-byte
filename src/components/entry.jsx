@@ -6,7 +6,7 @@ function Entry({props}) {
 // text-slate-600 text-gray-600 text-zinc-600 text-neutral-600 text-stone-600 text-red-600 text-orange-600 text-amber-600 text-yellow-600 text-lime-600 text-green-600 text-emerald-600 text-teal-600 text-cyan-600 text-sky-600 text-blue-600 text-indigo-600 text-violet-600 text-purple-600 text-fuchsia-600 text-pink-600 text-rose-600
 // marker:text-slate-400 marker:text-gray-400 marker:text-zinc-400 marker:text-neutral-400 marker:text-stone-400 marker:text-red-400 marker:text-orange-400 marker:text-amber-400 marker:text-yellow-400 marker:text-lime-400 marker:text-green-400 marker:text-emerald-400 marker:text-teal-400 marker:text-cyan-400 marker:text-sky-400 marker:text-blue-400 marker:text-indigo-400 marker:text-violet-400 marker:text-purple-400 marker:text-fuchsia-400 marker:text-pink-400 marker:text-rose-400
     return (
-        <div className={`bg-${props.backgroundColor}-200 grid place-items-center sm:grid-cols-2 gap-4 px-2 py-10 rounded-xl md:flex-row items-stretch md:grid md:grid-cols-2 md:max-w-3xl md:gap-4 md:p-5`}>
+        <div className={`bg-${props.backgroundColor}-200 grid place-items-center sm:grid-cols-2 gap-4 px-2 py-10 rounded-xl lg:flex-row items-stretch lg:grid md:grid-cols-2 md:max-w-3xl md:gap-4 md:p-5`}>
             <section className="max-w-sm overflow-hidden rounded-xl md:h-full">
                 <img className="w-full h-full object-cover" 
                 src= {props.img.src}
