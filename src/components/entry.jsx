@@ -28,7 +28,7 @@ function Entry({props}) {
                     </svg>
                 </section>
                 <p class="uppercase ml-2 font-light text-xl">features</p>
-                <ul className={`list-disc ml-2 marker:text-${props.backgroundColor}-400`}>
+                <ul className={`list-disc ml-2 pl-2 marker:text-${props.backgroundColor}-400`}>
                     <li><span className="font-semibold">{props.feature1}: </span><span className="font-light text-gray-600">{props.feature1des}</span></li>
                     <li><span className="font-semibold">{props.feature2}: </span><span className="font-light text-gray-600">{props.feature2des}</span></li>
                     <li><span className="font-semibold">{props.feature3}: </span><span className="font-light text-gray-600">{props.feature3des}</span></li>
